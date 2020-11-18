@@ -103,6 +103,7 @@ body{
     body{
         height: 600px;
         overflow: hidden;
+        background: url(bg-pattern-desktop.svg);
     }
     #main-div{
         margin: 0;
