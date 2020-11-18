@@ -105,6 +105,10 @@ body{
         overflow: hidden;
         background: url(bg-pattern-desktop.svg);
     }
+    #logo{
+        transform: scale(1.45,1.45);
+        padding-left: 60px;
+    }
     #main-div{
         margin: 0;
         padding-left: 10%;
@@ -116,15 +120,16 @@ body{
     }
     #content{
         text-align: left;
+        padding-top: 50px;
     }
     #content h3{
         padding-left: 0px;
-        font-size: 60px;
+        font-size: 64px;
     }
     #content p{
         line-height: 1.6;
         width: 370px;
-        font-size: 14.5px;
+        font-size: 15px;
     }
     #desktop-hero{
         margin-left: 0px;
@@ -137,17 +142,17 @@ body{
         width: 475px;
     }
     #email-field{
-        padding: 12.5px 135px 12.5px 20px; 
+        padding: 13.5px 135px 13.5px 20px; 
     }
     #email-btn{
-        padding:5.65px 30px;
+        padding:5.95px 30px;
     }
 
     /*---------------------Another breakpoint for larger desktop screens------------------------*/
 
     @media only screen and (min-width:1200px){
         #desktop-hero img{
-            width: 44.5vw;
+            width: 43.5vw;
         }
     }
 
